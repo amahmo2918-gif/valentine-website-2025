@@ -43,7 +43,7 @@ const CONFIG = {
     // They show up depending on how far they slide the meter
     loveMessages: {
         extreme: "I promised to build a life with you, but you're already my life",  // Shows when they go past 5000%
-        high: "remember this when I'm driving you crazy while you study anatomy",              // Shows when they go past 1000%
+        high: "remember this when I'm driving you crazy while you study anatomy",              // Shows when they go past 3000%
         normal: "woah hol up tiger"                           // Shows when they go past 100%
     },
 
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://www.youtube.com/watch?v=eY-7q42UZR0&list=RDeY-7q42UZR0&start_radio=1", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/diq8trsla/video/upload/v1769927642/4-10_Impossible_Germany_Live_e1uucn.m4a", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
