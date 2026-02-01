@@ -240,3 +240,43 @@ function setupMusicPlayer() {
         }
     });
 } 
+document.addEventListener("DOMContentLoaded", () => {
+  const cfg = window.VALENTINE_CONFIG?.music;
+  const btn = document.getElementById("musicBtn");
+
+  if (!btn) {
+    alert("Couldn’t find the Play Music button. Add id='musicBtn' to it in index.html");
+    return;
+  }
+
+  if (!cfg?.enabled) {
+    alert("Music is disabled in CONFIG.");
+    return;
+  }
+
+  let audio = null;
+  let playing = false;
+
+  btn.addEventListener("click", async () => {
+    try {
+      if (!audio) {
+        audio = new Audio(cfg.musicUrl);
+        audio.loop = true;
+        audio.volume = cfg.volume ?? 0.5;
+      }
+
+      if (!playing) {
+        await audio.play();
+        playing = true;
+        btn.textContent = cfg.stopText || "🔇 Stop Music";
+      } else {
+        audio.pause();
+        playing = false;
+        btn.textContent = cfg.startText || "🎵 Play Music";
+      }
+    } catch (e) {
+      alert("Music failed to play. Check the console.");
+      console.error(e);
+    }
+  });
+});
