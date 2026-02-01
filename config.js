@@ -15,7 +15,7 @@ const CONFIG = {
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
         hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        sloth: ['', '']                       // Cute sloth emojis
+        sloth: ['https://github.githubassets.com/images/icons/emoji/unicode/1f9a5.png?v', '"https://github.githubassets.com/images/icons/emoji/unicode/1f99e.png?v8"']                       // Cute sloth emojis
     },
 
     // Questions and answers
