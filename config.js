@@ -34,8 +34,8 @@ const CONFIG = {
         },
         third: {
             text: "Will you be my Valentine this Feb and then every other Feb for the rest of my life? Pretty please?", // The big question!
-            yesBtn: "FUCK IT UP YEAR!",                                             // Text for "Yes" button
-            noBtn: "Naur"                                                 // Text for "No" button
+            yesBtn: "FUCK IT UP HECK YEAH!",                                             // Text for "Yes" button
+            noBtn: "No is not an option I will cry"                                                 // Text for "No" button
         }
     },
 
@@ -51,7 +51,7 @@ const CONFIG = {
     celebration: {
         title: "You are my favourite person, my greatest achievement, my entire life's work, and I can't wait to show you that forever",
         message: "Come get yo gift, 5 bajillion smooches, butt grabs, my heart, soul, and everything I have, and everything I am! I love you beyond words. In this life and the next!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        emojis: "💕🦦🦞😘🪿🐮🩺🤎"  // These will bounce around
     },
 
     // Color scheme for the website
