@@ -9,7 +9,7 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "I have never loved anyone like I have loved you. Will You Be My Valentine this year and all the rest? ",
+    pageTitle: "V-day forev?? ",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -82,7 +82,6 @@ const CONFIG = {
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
-    }
 };
 
 // Don't modify anything below this line unless you know what you're doing
