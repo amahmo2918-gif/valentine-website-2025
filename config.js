@@ -9,7 +9,7 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "I have never loved anyone like I have loved you. Will You Be My Valentine this year and all the coming years? 💝",
+    pageTitle: "I have never loved anyone like I have loved you. Will You Be My Valentine this year and all the rest? ",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
