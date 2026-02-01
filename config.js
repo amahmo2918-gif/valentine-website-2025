@@ -14,8 +14,8 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        sloth: [:lobster:, :otter:]                       // Cute sloth emojis
+        hearts: ['❤️', '🦦', '🦞'],  // Heart emojis
+        sloth: ['🦦', ' 🦞']                       // Cute sloth emojis
     },
 
     // Questions and answers
