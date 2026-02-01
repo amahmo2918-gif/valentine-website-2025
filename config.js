@@ -42,11 +42,9 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "Hot diggity dawg, and I still love you more",  // Shows when they go past 5000%
+        extreme: "I promised to build a life with you, but you're already my life",  // Shows when they go past 5000%
         high: "remember this when I'm driving you crazy while you study anatomy",              // Shows when they go past 1000%
-        normal: "u my world"                           // Shows when they go past 100%
-        a lot: "I can't wait to put a ring on your finger",  // Shows when they go past 2000%
-    extreme: "I promised to build a life with you, but you're already my life",  // Shows when they go past 7000%
+        normal: "woah hol up tiger"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
